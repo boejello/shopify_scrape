@@ -13,7 +13,6 @@ def get_page(page):
     products = json.loads(data)['products']
     return products
 
-# with open('some.csv', newline='', encoding='utf-8') as f:
 with open('file_name', 'w', encoding='utf-8') as f:
     writer = csv.writer(f)
     writer.writerow(['Category', 'Name', 'Variant Name', 'Price', 'URL'])
