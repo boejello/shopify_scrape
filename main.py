@@ -2,7 +2,7 @@ import csv
 import json
 import urllib.request as urllib2
 
-company = "ravesuits"
+company = "companysite"
 base_url = f'https://{company}.com'
 url = base_url + '/products.json'
 file_name = f'products_{company}.csv'
